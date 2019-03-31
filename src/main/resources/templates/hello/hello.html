@@ -1,0 +1,6 @@
+<html>
+Hello World
+	<form action="/hello" method="post"@th:object="${helloFrom}">
+		<input type="text" name="val"@th:field="*{val}"/>
+	</form>
+</html>
